@@ -16,4 +16,4 @@ suite.addTest(TestEmp("test_4_delete"))
 
 with open("./report/report.html","wb") as f:
     runner = HTMLTestRunner(f,title="我的测试报告",description="版本 v1.0")
-runner.run(suite)
+    runner.run(suite)
